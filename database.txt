@@ -7,6 +7,7 @@ user
 
 
 message
-- userID INT NOT NULL
+- message_id INT NOT NULL AUTO_INCREMENT
+- user_id INT NOT NULL
 - message VARCHAR(255) NOT NULL
 - message_time DATATIME NOT NULL
